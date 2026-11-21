@@ -94,7 +94,7 @@ public final class FondoBiblioteca {
             double x = ((base % 1300) + 1300) % 1300 - 260;
             int y = 438 + (i % 3) * 22;
             g.setPaint(new GradientPaint((float) x, y, new Color(170, 150, 235, 0),
-                                         (float) x + 120, y, new Color(170, 150, 235, 26), true));
+                                            (float) x + 120, y, new Color(170, 150, 235, 26), true));
             g.fill(new Ellipse2D.Double(x, y, 300, 46));
         }
 
